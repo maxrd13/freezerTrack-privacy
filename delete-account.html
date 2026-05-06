@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Supprimer mon compte – CongelApp</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: #f5f6fa;
+            color: #1a1a1a;
+            line-height: 1.7;
+            padding: 40px 20px 80px;
+        }
+
+        .container {
+            max-width: 640px;
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 16px;
+            padding: 48px;
+            box-shadow: 0 2px 16px rgba(0, 0, 0, 0.07);
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 36px;
+        }
+
+        .logo-icon {
+            width: 52px;
+            height: 52px;
+            background: #eff6ff;
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+        }
+
+        .logo-name {
+            font-size: 22px;
+            font-weight: 700;
+            color: #1a1a1a;
+        }
+
+        .logo-sub {
+            font-size: 13px;
+            color: #999;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: 800;
+            color: #1a1a1a;
+            margin-bottom: 12px;
+        }
+
+        p {
+            font-size: 15px;
+            color: #444;
+            margin-bottom: 14px;
+        }
+
+        .warning {
+            background: #fff5f5;
+            border-left: 4px solid #ef4444;
+            border-radius: 0 8px 8px 0;
+            padding: 14px 18px;
+            margin: 20px 0;
+            font-size: 14px;
+            color: #b91c1c;
+        }
+
+        .steps {
+            margin: 24px 0;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+
+        .step {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+            background: #f5f6fa;
+            border-radius: 12px;
+            padding: 16px 18px;
+        }
+
+        .step-number {
+            width: 32px;
+            height: 32px;
+            min-width: 32px;
+            background: #3b82f6;
+            color: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 15px;
+        }
+
+        .step-text {
+            font-size: 15px;
+            color: #1a1a1a;
+            padding-top: 4px;
+        }
+
+        .step-text strong {
+            color: #1a1a1a;
+        }
+
+        .divider {
+            border: none;
+            border-top: 1px solid #f0f0f0;
+            margin: 32px 0;
+        }
+
+        h2 {
+            font-size: 16px;
+            font-weight: 700;
+            color: #1e40af;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 12px;
+        }
+
+        .contact-box {
+            background: #f5f6fa;
+            border-radius: 12px;
+            padding: 18px 22px;
+            margin-top: 10px;
+        }
+
+        .contact-box p {
+            margin: 0;
+            font-size: 15px;
+        }
+
+        a {
+            color: #3b82f6;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .footer {
+            font-size: 13px;
+            color: #aaa;
+            text-align: center;
+            margin-top: 32px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 28px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="logo">
+            <div class="logo-icon">🧊</div>
+            <div>
+                <div class="logo-name">CongelApp</div>
+                <div class="logo-sub">Gestion de congélateur</div>
+            </div>
+        </div>
+
+        <h1>Supprimer mon compte</h1>
+
+        <p>
+            Vous pouvez supprimer votre compte et toutes vos données directement depuis l'application
+            CongelApp, sans avoir besoin de nous contacter.
+        </p>
+
+        <div class="warning">
+            ⚠️ La suppression est <strong>immédiate et irréversible</strong>. Tous vos congélateurs,
+            tiroirs et aliments enregistrés seront définitivement effacés.
+        </div>
+
+        <p>Suivez les étapes suivantes depuis l'application :</p>
+
+        <div class="steps">
+            <div class="step">
+                <div class="step-number">1</div>
+                <div class="step-text">Ouvrez <strong>CongelApp</strong> sur votre appareil</div>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <div class="step-text">Appuyez sur l'onglet <strong>Paramètres</strong> (icône en bas à droite)</div>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <div class="step-text">Faites défiler jusqu'au bouton <strong>« Supprimer mon compte et mes données »</strong></div>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <div class="step-text">Confirmez la suppression dans la boîte de dialogue</div>
+            </div>
+        </div>
+
+        <p>
+            Votre compte est supprimé instantanément. Toutes les données associées
+            (congélateurs, tiroirs, aliments) sont effacées de nos serveurs.
+        </p>
+
+        <hr class="divider" />
+
+        <h2>Vous n'avez plus accès à l'application ?</h2>
+        <p>
+            Si vous ne pouvez pas accéder à l'application pour supprimer votre compte,
+            contactez-nous par e-mail en indiquant votre pseudo. Nous procéderons
+            à la suppression manuelle de vos données dans un délai de <strong>7 jours ouvrés</strong>.
+        </p>
+
+        <div class="contact-box">
+            <p><strong>CongelApp</strong></p>
+            <p>E-mail : <a href="mailto:roudiermaxime13@gmail.com">roudiermaxime13@gmail.com</a></p>
+            <p style="font-size:13px; color:#999; margin-top:6px;">
+                Objet : Suppression de compte – [votre pseudo]
+            </p>
+        </div>
+
+        <p class="footer">© 2026 CongelApp. Tous droits réservés.</p>
+
+    </div>
+</body>
+</html>
